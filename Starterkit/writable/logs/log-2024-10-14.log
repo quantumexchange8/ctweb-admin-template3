@@ -1,0 +1,50 @@
+ERROR - 2024-10-14 04:12:12 --> Error connecting to the database: Unknown database 'symox_ci'
+ERROR - 2024-10-14 04:12:46 --> Error connecting to the database: Unknown database 'symox_ci'
+ERROR - 2024-10-14 04:13:06 --> Error connecting to the database: Unknown database 'symox_ci'
+CRITICAL - 2024-10-14 04:13:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'symox_ci'
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\app\Controllers\AuthController.php(155): CodeIgniter\Controller->validate()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2024-10-14 04:14:54 --> Error connecting to the database: Unknown database 'symox_ci'
+CRITICAL - 2024-10-14 04:14:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'symox_ci'
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\app\Controllers\AuthController.php(155): CodeIgniter\Controller->validate()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2024-10-14 04:15:03 --> Error connecting to the database: Unknown database 'symox_ci'
+CRITICAL - 2024-10-14 04:15:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'symox_ci'
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\app\Controllers\AuthController.php(155): CodeIgniter\Controller->validate()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Documents\Projects\admin templete\admin3\Starterkit\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}

@@ -1,0 +1,190 @@
+ERROR - 2023-10-26 22:38:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:04 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:04 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:29 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:38:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:38:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:40:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+ERROR - 2023-10-26 22:40:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-10-26 22:40:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesbra...', 'email', Array, NULL)
+#4 D:\symox-codeigniter-v1.0.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesbra...', Array, Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#12 {main}
+ERROR - 2023-10-26 22:41:28 --> Error connecting to the database: Unknown database 'symox_ci'
+CRITICAL - 2023-10-26 22:42:26 --> Undefined variable $title_meta
+#0 D:\symox-codeigniter-v1.0.0\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\symox-codeig...', 5)
+#1 D:\symox-codeigniter-v1.0.0\Admin\system\View\View.php(214): include('D:\\symox-codeig...')
+#2 D:\symox-codeigniter-v1.0.0\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\symox-codeigniter-v1.0.0\Admin\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#4 D:\symox-codeigniter-v1.0.0\Admin\app\Controllers\AuthController.php(166): view('auth/login', Array)
+#5 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\symox-codeigniter-v1.0.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\symox-codeigniter-v1.0.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\symox-codeigniter-v1.0.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\symox-codeig...')
+#10 {main}

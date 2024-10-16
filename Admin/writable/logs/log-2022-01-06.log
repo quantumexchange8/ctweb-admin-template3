@@ -1,0 +1,188 @@
+CRITICAL - 2022-01-06 04:37:53 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 04:37:59 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 04:38:30 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 04:39:13 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 04:39:21 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 04:39:25 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 04:40:00 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 04:41:46 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 22:35:05 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 22:35:15 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 22:37:52 --> Undefined variable $data
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 44)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2022-01-06 22:39:36 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 22:40:31 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 22:42:46 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(110): view('auth/register', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 22:44:47 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(113): view('auth/register', Array, Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 22:45:14 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\register.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(113): view('auth/register', Array, Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 22:49:26 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\forget_password.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/forget_pas...', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(214): view('auth/forget_pas...', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}
+CRITICAL - 2022-01-06 22:49:44 --> Undefined variable $title_meta
+#0 C:\wamp64\www\symox_ci\app\Views\auth\forget_password.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 5)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/forget_pas...', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(214): view('auth/forget_pas...', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}

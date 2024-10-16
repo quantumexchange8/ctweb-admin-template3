@@ -1,0 +1,10 @@
+CRITICAL - 2021-12-10 22:06:51 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\symox_ci\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\symox_ci\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\symox_ci\app\Controllers\Language.php(11): redirect('http://localhos...')
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\Language->index()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Language))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}

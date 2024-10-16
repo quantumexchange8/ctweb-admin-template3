@@ -1,0 +1,66 @@
+CRITICAL - 2021-12-01 01:19:24 --> Call to undefined method App\Models\ContactModel::all
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(23): CodeIgniter\Model->__call('all', Array)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2021-12-01 01:19:31 --> Call to undefined method App\Models\ContactModel::all
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(23): CodeIgniter\Model->__call('all', Array)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2021-12-01 01:26:14 --> Call to a member function get() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-01 01:26:41 --> Call to a member function get() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-01 01:27:20 --> Call to a member function get() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-01 01:28:10 --> Call to a member function get() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-01 23:06:49 --> syntax error, unexpected ':', expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-12-01 23:06:50 --> syntax error, unexpected ':', expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}

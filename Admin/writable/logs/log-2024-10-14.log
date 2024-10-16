@@ -1,0 +1,241 @@
+ERROR - 2024-10-14 03:56:02 --> Error connecting to the database: Unknown database 'symox_ci'
+ERROR - 2024-10-14 04:00:16 --> Error connecting to the database: Unknown database 'symox_ci'
+ERROR - 2024-10-14 04:06:13 --> Error connecting to the database: Unknown database 'symox_ci'
+CRITICAL - 2024-10-14 04:06:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'symox_ci'
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(155): CodeIgniter\Controller->validate()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2024-10-14 04:22:54 --> Error connecting to the database: Unknown database 'symox_ci'
+CRITICAL - 2024-10-14 04:22:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'symox_ci'
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(155): CodeIgniter\Controller->validate()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#12 {main}
+ERROR - 2024-10-14 04:24:18 --> Error connecting to the database: Unknown database 'symox_ci'
+ERROR - 2024-10-14 04:25:31 --> Table 'admin3.users' doesn't exist
+CRITICAL - 2024-10-14 04:25:31 --> Call to a member function getRow() on bool
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(155): CodeIgniter\Controller->validate()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2024-10-14 04:26:31 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:26:49 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:27:48 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:28:00 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:40:44 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:44:47 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:44:58 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:45:10 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 04:45:45 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(166): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 22:34:07 --> Invalid file: /.php
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(17): view()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2024-10-14 22:34:17 --> Invalid file: /.php
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(17): view()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2024-10-14 22:34:20 --> Invalid file: /.php
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(17): view()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2024-10-14 22:35:36 --> Invalid file: /.php
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(18): view()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2024-10-14 22:36:01 --> Invalid file: /login.php
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(18): view()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2024-10-14 22:36:06 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(18): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 22:36:07 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(18): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2024-10-14 22:36:16 --> Undefined variable $title_meta
+#0 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Views\auth\login.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(214): include('...')
+#2 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Common.php(1097): CodeIgniter\View\View->render()
+#4 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\app\Controllers\AuthController.php(18): view()
+#5 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->index()
+#6 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Admin\Documents\Projects\admin templete\admin3\Admin\system\Commands\Server\rewrite.php(43): require_once('...')
+#10 {main}

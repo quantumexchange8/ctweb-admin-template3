@@ -1,0 +1,38 @@
+CRITICAL - 2021-11-30 00:00:26 --> Argument 3 passed to view() must be of the type array, bool given, called in C:\wamp64\www\symox_ci\app\Controllers\AuthController.php on line 198
+#0 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(198): view('email/email_for...', Array, true)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2021-11-30 00:34:30 --> Too few arguments to function App\Controllers\AuthController::reset_password(), 0 passed in C:\wamp64\www\symox_ci\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->reset_password()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-11-30 00:36:48 --> Too few arguments to function App\Controllers\AuthController::reset_password(), 0 passed in C:\wamp64\www\symox_ci\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->reset_password()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-11-30 23:26:53 --> Too few arguments to function App\Controllers\AuthController::verifyRecaptcha(), 0 passed in C:\wamp64\www\symox_ci\app\Controllers\AuthController.php on line 107 and exactly 1 expected
+#0 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(107): App\Controllers\AuthController->verifyRecaptcha()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2021-11-30 23:27:16 --> Too few arguments to function App\Controllers\AuthController::verifyRecaptcha(), 0 passed in C:\wamp64\www\symox_ci\app\Controllers\AuthController.php on line 107 and exactly 1 expected
+#0 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(107): App\Controllers\AuthController->verifyRecaptcha()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}

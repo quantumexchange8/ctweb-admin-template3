@@ -1,0 +1,51 @@
+CRITICAL - 2021-12-06 03:22:10 --> syntax error, unexpected ''checked'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-12-06 03:22:32 --> syntax error, unexpected ''checked'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-12-06 03:22:48 --> syntax error, unexpected ''sss'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-12-06 06:00:53 --> Unable to parse URI: http://localhost:8080demo-fetch&order=&dir=asc
+#0 C:\wamp64\www\symox_ci\system\HTTP\URI.php(280): CodeIgniter\HTTP\Exceptions\HTTPException::forUnableToParseURI('http://localhos...')
+#1 C:\wamp64\www\symox_ci\system\HTTP\URI.php(235): CodeIgniter\HTTP\URI->setURI('http://localhos...')
+#2 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(24): CodeIgniter\HTTP\URI->__construct('http://localhos...')
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->demo_fetch()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}
+ERROR - 2021-12-06 06:17:38 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-06 06:17:38 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}

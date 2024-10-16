@@ -1,0 +1,17 @@
+ERROR - 2023-11-08 04:45:12 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2023-11-08 04:45:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#2 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Validation\Rules.php(116): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_not_unique('admin@themesdes...', 'email', Array, NULL)
+#4 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('email', 'email', 'admin@themesdes...', Array, Array)
+#5 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#6 D:\zip\symox-codeigniter-v1.1.0\Admin\app\Controllers\AuthController.php(157): CodeIgniter\Controller->validate(Array)
+#7 D:\zip\symox-codeigniter-v1.1.0\Admin\system\CodeIgniter.php(824): App\Controllers\AuthController->authCheck()
+#8 D:\zip\symox-codeigniter-v1.1.0\Admin\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 D:\zip\symox-codeigniter-v1.1.0\Admin\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\zip\symox-codeigniter-v1.1.0\Admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\zip\symox-codeigniter-v1.1.0\Admin\system\Commands\Server\rewrite.php(43): require_once('D:\\zip\\symox-co...')
+#12 {main}
+ERROR - 2023-11-08 04:46:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it

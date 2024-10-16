@@ -1,0 +1,112 @@
+ERROR - 2021-12-07 22:42:20 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 22:42:20 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 22:42:23 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 22:42:23 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 22:42:42 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 22:42:42 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:16:14 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:16:14 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:19:22 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:19:22 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:20:07 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:20:07 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:21:00 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:21:00 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:21:03 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:21:03 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:25:51 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:25:51 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:26:09 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:26:09 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:26:12 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:26:12 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:26:12 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:26:12 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:26:35 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:26:35 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+ERROR - 2021-12-07 23:30:55 --> Unknown column 'undefined' in 'order clause'
+CRITICAL - 2021-12-07 23:30:55 --> Call to a member function getResult() on bool
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->fetch()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}

@@ -1,0 +1,24 @@
+CRITICAL - 2021-11-25 00:26:34 --> Invalid file: partials/bodyl.php
+#0 C:\wamp64\www\symox_ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('partials/bodyl....')
+#1 C:\wamp64\www\symox_ci\system\View\View.php(432): CodeIgniter\View\View->render('partials/bodyl', NULL, true)
+#2 C:\wamp64\www\symox_ci\app\Views\auth-register.php(11): CodeIgniter\View\View->include('partials/bodyl')
+#3 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#4 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth-register', Array, true)
+#6 C:\wamp64\www\symox_ci\app\Controllers\PageController.php(21): view('auth-register', Array)
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\PageController->auth_register()
+#8 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+#9 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#12 {main}
+CRITICAL - 2021-11-25 00:27:02 --> Invalid file: auth-recoverpw.php
+#0 C:\wamp64\www\symox_ci\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth-recoverpw....')
+#1 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth-recoverpw', Array, true)
+#2 C:\wamp64\www\symox_ci\app\Controllers\PageController.php(28): view('auth-recoverpw', Array)
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\PageController->auth_recoverpw()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageController))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}

@@ -1,0 +1,173 @@
+ERROR - 2021-12-02 02:44:39 --> Column 'name' cannot be null
+ERROR - 2021-12-02 02:47:50 --> Column 'name' cannot be null
+CRITICAL - 2021-12-02 02:55:05 --> Illegal string offset 'name'
+#0 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\s...', 39, Array)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->add_edit()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2021-12-02 02:56:23 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->add_edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 02:56:31 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->add_edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:26:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:26:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::find()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:26:36 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:26:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:28:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:31:13 --> Function name must be a string
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:38:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:38:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:40:31 --> syntax error, unexpected 'where' (T_STRING)
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-12-02 04:45:09 --> Call to a member function table() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(801): App\Controllers\ContactController->__construct()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:46:33 --> Call to a member function getRow() on array
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:46:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:47:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:48:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:49:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:50:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::query()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:52:00 --> Call to a member function getRow() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:52:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 04:52:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->edit()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-12-02 23:55:18 --> Use of undefined constant ids_array - assumed 'ids_array' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\symox_ci\app\Views\dynamic-contacts-list.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\s...', 286, Array)
+#1 C:\wamp64\www\symox_ci\system\View\View.php(214): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('dynamic-contact...', Array, true)
+#4 C:\wamp64\www\symox_ci\app\Controllers\ContactController.php(20): view('dynamic-contact...', Array)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\ContactController->index()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#10 {main}

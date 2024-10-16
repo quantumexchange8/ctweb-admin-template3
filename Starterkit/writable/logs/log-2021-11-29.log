@@ -1,0 +1,226 @@
+ERROR - 2021-11-29 00:09:49 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-11-29 00:10:21 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-11-29 00:11:57 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2021-11-29 00:18:27 --> syntax error, unexpected ';', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Email')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Email')
+#3 [internal function]: spl_autoload_call('Config\\Email')
+#4 C:\wamp64\www\symox_ci\system\Config\Factories.php(136): class_exists('Config\\Email')
+#5 C:\wamp64\www\symox_ci\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Email')
+#6 C:\wamp64\www\symox_ci\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\wamp64\www\symox_ci\system\Config\Services.php(193): config('Email')
+#8 C:\wamp64\www\symox_ci\system\Config\BaseService.php(248): CodeIgniter\Config\Services::email(NULL, false)
+#9 C:\wamp64\www\symox_ci\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('email', Array)
+#10 C:\wamp64\www\symox_ci\system\Config\Services.php(189): CodeIgniter\Config\BaseService::getSharedInstance('email', NULL)
+#11 C:\wamp64\www\symox_ci\system\Config\BaseService.php(248): CodeIgniter\Config\Services::email()
+#12 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(97): CodeIgniter\Config\BaseService::__callStatic('email', Array)
+#13 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->emailSend()
+#14 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#15 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#18 {main}
+ERROR - 2021-11-29 00:18:41 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-11-29 00:19:40 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-11-29 00:20:14 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL/TLS already set-up for this stream
+ERROR - 2021-11-29 00:20:43 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:20:44 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:20:45 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:20:45 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:20:46 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:20:46 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:20:46 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:22:27 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:0 (Failed to parse address &quot;smtp.googlemail.com&quot;)
+ERROR - 2021-11-29 00:51:26 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:587 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+ERROR - 2021-11-29 01:01:34 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2021-11-29 01:04:24 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2021-11-29 01:04:46 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2021-11-29 01:10:12 --> Email: sendWithSmtp throwed fsockopen(): unable to connect to smtp.googlemail.com:587 (A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+)
+CRITICAL - 2021-11-29 02:32:24 --> Call to a member function get() on null
+#0 C:\wamp64\www\symox_ci\system\View\View.php(214): include()
+#1 C:\wamp64\www\symox_ci\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\symox_ci\system\Common.php(1097): CodeIgniter\View\View->render('auth/email_veri...', Array, true)
+#3 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(33): view('auth/email_veri...', Array)
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_verify()
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 02:33:15 --> Call to a member function get() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_verify()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-11-29 02:33:31 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 02:36:59 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 02:49:33 --> There is no data to update.
+#0 C:\wamp64\www\symox_ci\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\symox_ci\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\symox_ci\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(70): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 02:54:18 --> There is no data to update.
+#0 C:\wamp64\www\symox_ci\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\symox_ci\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(70): CodeIgniter\Model->update()
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->register_store()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}
+CRITICAL - 2021-11-29 03:17:17 --> syntax error, unexpected '$email' (T_VARIABLE), expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 03:17:28 --> syntax error, unexpected ')', expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 03:17:36 --> Call to undefined method App\Models\UserModel::getRow
+#0 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(41): CodeIgniter\Model->__call('getRow', Array)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->otp_verify()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
+CRITICAL - 2021-11-29 04:46:17 --> trim() expects at least 1 parameter, 0 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'trim() expects ...', 'C:\\wamp64\\www\\s...', 41, Array)
+#1 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(41): trim()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->otp_verify()
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#7 {main}
+CRITICAL - 2021-11-29 05:23:08 --> syntax error, unexpected ''otp'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 05:41:31 --> Call to a member function set() on null
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->otp_resend()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-11-29 23:31:43 --> syntax error, unexpected ',', expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 23:32:37 --> syntax error, unexpected ',', expecting ']'
+#0 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\s...')
+#1 C:\wamp64\www\symox_ci\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#9 {main}
+CRITICAL - 2021-11-29 23:33:36 --> Call to undefined function App\Controllers\random_string()
+#0 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#5 {main}
+CRITICAL - 2021-11-29 23:55:27 --> There is no data to update.
+#0 C:\wamp64\www\symox_ci\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\symox_ci\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(193): CodeIgniter\Model->update()
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}
+CRITICAL - 2021-11-29 23:58:23 --> There is no data to update.
+#0 C:\wamp64\www\symox_ci\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\symox_ci\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(193): CodeIgniter\Model->update()
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}
+CRITICAL - 2021-11-29 23:58:25 --> There is no data to update.
+#0 C:\wamp64\www\symox_ci\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\symox_ci\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#2 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(193): CodeIgniter\Model->update()
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#4 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#8 {main}
+CRITICAL - 2021-11-29 23:59:47 --> Argument 3 passed to view() must be of the type array, bool given, called in C:\wamp64\www\symox_ci\app\Controllers\AuthController.php on line 198
+#0 C:\wamp64\www\symox_ci\app\Controllers\AuthController.php(198): view('email/email_for...', Array, true)
+#1 C:\wamp64\www\symox_ci\system\CodeIgniter.php(824): App\Controllers\AuthController->email_check()
+#2 C:\wamp64\www\symox_ci\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 C:\wamp64\www\symox_ci\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\symox_ci\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\symox_ci\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\s...')
+#6 {main}
